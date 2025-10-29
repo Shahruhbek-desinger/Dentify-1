@@ -603,7 +603,8 @@ img{
 .sub__in-email{
     position: absolute;
     padding: 11px;
-    padding-inline: 30px;
+    /* padding-inline: 30px; */
+    padding-right:55px;
     /* border: 0.px solid black; */
     background: var(--my-bg-colors);
     border-radius: 6px;
@@ -635,3 +636,8 @@ img{
     align-items: start;
 }
 
+.footer__title{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}

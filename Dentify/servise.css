@@ -43,6 +43,20 @@ a{
     align-items: center;
     gap: 250px;
     padding: 20px 0;
+    margin-bottom: 200px;
+}
+
+.nav__title{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.header__cards{
+    padding-top: 200px;
 }
 
 .nav__list{
@@ -237,7 +251,8 @@ a{
 .sub__in-email{
     position: absolute;
     padding: 11px;
-    padding-inline: 30px;
+    /* padding-inline: 30px; */
+    padding-right:55px;
     /* border: 0.px solid black; */
     background: var(--my-bg-colors);
     border-radius: 6px;
@@ -267,4 +282,10 @@ a{
     flex-direction: column;
     gap: 30px;
     align-items: start;
+}
+
+.footer__title{
+    display: flex;
+    gap: 10px;
+    text-align: center;
 }
