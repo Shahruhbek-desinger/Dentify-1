@@ -36,18 +36,29 @@ img{
     margin: 0 auto;
 }
 
-
+.navbar .container{
+    /* max-width: 1150px; */
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .navbar{
-    position: fixed;
+    position: sticky;
+    top: 0;
     background: white;
-    padding-inline: 500px;
+    /* padding-inline: 500px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 250px;
+    /* gap: 250px; */
     padding: 20px 0;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
+}
+
+.nav__link:hover{
+    text-decoration: 3px underline var(--my-bg-color);
 }
 
 .nav__title{
